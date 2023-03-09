@@ -1,0 +1,165 @@
+body{
+    
+    max-width: max-content;
+    background-color: rgba(0, 0, 0, 0.822);
+    color :rgba(255, 255, 255, 0.874); 
+    text-align: center;
+
+}
+
+.Profile{
+    
+    margin: 2em;
+    border-style: outset;
+    border-width: 5px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+    box-shadow: 20px -14px 17px 8px black;
+    
+}
+
+h1{
+
+    margin: 0.4em auto;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: -5px 5px 0px  rgb(0, 0, 0);
+} 
+
+h2 {
+
+    margin: 1.2em auto;
+    font-size: 1.8em;
+    font-family: serif;
+    text-shadow: -5px 5px 0px  rgb(0, 0, 0);
+    
+}
+
+h3{
+    
+    margin: 0.3em auto;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: cucu;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
+    
+}
+
+@keyframes cucu {
+
+    0%   {color: rgb(255, 251, 0);}
+    25%  {color: rgb(255, 191, 0);}
+    50%  {color: rgb(255, 162, 0);}
+    100%  {color: rgba(255, 0, 0, 0.996);}
+    
+}
+
+.idem0{
+    
+    margin: 1em auto;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+.other{
+    
+    margin: 1em auto;
+    list-style-position: inside;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+
+    margin: 1em 1em;
+    display: inline-block;
+}
+
+.A,.B{
+
+    margin: 1em auto auto -4em;
+    list-style-type: none;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.point{
+
+    margin: 1em -1em;
+    list-style-position: inside;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+
+}
+
+.orientacion{
+
+    margin: 1em auto;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+
+}
+
+.fechas{
+    
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    columns: 2;
+    list-style-type: none;
+    
+}
+
+.C,.D{
+    
+    list-style-position: inside;
+    font-size: 1.2em;
+    margin: 1.5em auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    margin: 1.5em auto;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.proj{
+    
+    margin: 1em 1.5em;
+    font-size: 1.5em;
+    display: inline-block;
+    
+}
+
+a:visited{
+    
+    color: white;
+}
+
+.subtitulo{
+    
+    display: inline-block;
+    margin: auto 0.5em;
+    columns: 2;
+    column-count: auto;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    text-decoration: underline;
+    
+}
+
+.download{
+    
+    margin: auto 4em;
+
+}
+
