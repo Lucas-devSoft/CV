@@ -1,0 +1,1545 @@
+@media only screen and (min-width:1099px){
+ 
+    /* CSS Escritorio */
+
+    body{
+                
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, rgb(0, 191, 255),rgba(13, 0, 252, 0.91),rgb(183, 0, 255),rgb(0, 98, 255));
+
+    }
+
+    .Container-Icon p , .Container-Icon i {
+        
+        display: none;
+    }
+
+    .nav_ul{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding:1.5em;
+        margin: 2em;
+        margin-bottom: 4em;
+        border-radius: 1em;
+        outline: .1em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(24, 28, 253),rgb(45, 104, 254),rgb(71, 185, 251));
+    
+    }
+
+    .nav_ul li,a{
+       
+        color: rgb(0, 0, 0);
+        list-style-type: none;
+        text-decoration: none;
+        font-weight: bolder;
+        font-family: "Orbitron";  
+        font-size: 1em;
+        
+    }
+
+    .nav_ul a:hover{
+
+        animation-name: point;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes point {
+
+        From {}
+        to {color:  rgb(255, 255, 255);}
+        
+    }
+
+    .nav_ul li:first-child{
+
+        font-size: 2.2em;        
+        
+    }
+
+    /* Contenedor Aboutme */
+
+    .Container-profile{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly; 
+        outline: .1em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(155, 68, 237),rgba(71, 76, 220, 0.804),rgb(39, 145, 206));
+        border-radius: 1em;
+        margin: 2em;
+    }
+
+    /* Imagen */
+
+    .Container-profile > img {
+
+        float: left;
+        margin: 2em;
+        border-radius: 2em;
+        outline: .15em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        
+    }
+
+    /* Contenedor de la Informacion y links */
+
+    .Container-info {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+    }
+
+
+    .Container-a {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 4em;      
+
+    }
+
+    .Container-a > a {
+
+        width: 8em;
+        padding: .5em;
+        margin: auto 1em;
+        margin-bottom: .2em;
+        text-align: center;
+        border-radius: .5em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(2, 255, 200),rgba(1, 141, 255, 0.804),rgb(2, 31, 255));
+        font-size: 1.5em;
+        font-weight: bolder;
+        font-family: "Orbitron";
+        font-variant-caps: petite-caps;
+
+    }
+
+    .Container-a a:hover{
+        
+        animation-name: flasheo;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes flasheo {
+
+        From {}
+        to {padding: .8em;}
+        
+    }
+
+
+    .Container-info h4 {
+
+        font-size: 2.5em;
+        text-align: center;
+        font-weight: bolder;
+        font-family: "Rye";
+
+    }
+
+    .Container-info p{
+
+        margin-top: -3em;
+        margin-bottom: -.5em;
+        text-align: justify;
+        font-size: 2em;
+        font-weight: bolder;
+        font-family: "Dosis";
+        padding: 2em;
+
+    }
+
+    .Container-info p::first-letter{
+
+        font-size: 2.5em;
+        font-weight: bolder;
+
+    }
+
+    /* Conocimiento Informaticos */
+
+    .Container-Conocimientos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        text-align: center;
+
+    }
+
+    .Container-Conocimientos h3 {
+
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Libre Baskerville";
+        text-decoration: underline double;
+        margin: .05em;
+    }
+
+
+    .Container-Conocimientos .LG ,.BD, .TN {
+
+        list-style-type: none;
+        font-size: 2.4em;
+        font-family: "Bebas Neue";
+        text-decoration: underline wavy;
+
+    }
+
+    .Container-Conocimientos .Items-LG {
+
+
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style-type: none;
+        font-size: 1.5em;
+        font-family: "Kanit";
+            
+    }
+
+    .Items-LG li {
+
+        margin: 1em .7em;
+        font-size: 1.5em;
+        font-family: "Inconsolata";
+    }
+
+    .Container-Conocimientos .Items-BD {
+        
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style-type: none;
+        font-size: 1.5em;
+        font-family: "Kanit";
+
+    }
+
+    .Items-BD  li {
+
+        margin: 1em;
+        font-size: 1.5em;
+        font-family: "Inconsolata";   
+    }
+
+    .Container-Conocimientos .Items-TN {
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style-type: none;
+        font-size: 1.5em;
+        font-family: "Kanit";
+
+    }
+
+    .Items-TN li {
+
+        margin: 1em;
+        font-size: 1.5em;
+        font-family: "Inconsolata";     
+    }
+
+    /* Formacion academica */
+
+
+    .FA-Container{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style-type: none;
+        text-align: center;
+        
+    }
+
+    .FA-Container h3{
+
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Libre Baskerville";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .Container-Items li{ 
+
+        list-style-type: none;
+        padding: .35em;
+        font-size: 1.5em;
+        font-family: "Inconsolata"; 
+        
+    }
+
+    .FECHAS {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .FECHAS li {
+
+        margin: auto 1.5em;
+
+    }
+
+    /* Experiencia Laboral */
+
+
+    
+
+    .EL-Container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .EL-Container h3{
+
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Libre Baskerville";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .EL-Items li {
+
+
+        text-align: center;
+        list-style-type: none;
+        margin: 1em;
+        font-size: 1.5em;
+        font-family: "Inconsolata";   
+
+    }
+
+    /* Idioma */
+
+    .Container-Leng{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Leng h3{
+
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Libre Baskerville";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .Container-Leng li {
+
+        list-style-type: none;
+        margin: 1em;
+        font-size: 1.5em;
+        font-family: "Inconsolata";   
+
+    }
+
+
+    /* Disponibilidad */
+
+    .Container-Time{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Time h3{
+
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Libre Baskerville";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .Container-Time li{
+
+        list-style-type: none;
+        margin: 1em;
+        font-size: 1.5em;
+        font-family: "Inconsolata";   
+    }
+
+    /* Proyectos Personales */
+
+    .Container-Proyectos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Proyectos h3 {
+
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Libre Baskerville";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .table-1 {
+        
+        width: 90%;
+    }
+
+    .table-1 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        padding: 2.5em;
+        position: relative;
+        
+        
+    }
+
+    .table-1 th {
+
+        font-size: 3.5em;
+        font-family: "DotGothic16";
+        margin-bottom: .25em;
+
+    }
+
+    .table-1 .NProyecto {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Gemunu Libre";
+        font-size: 2.5em;
+        margin-bottom: 1em;
+
+    }
+
+    .table-1 td ,th{
+
+        background: none;
+
+    }
+
+    .table-1 p {
+
+        background: none;
+        font-size: 2em;
+        font-family: "Kanit";
+        
+    }
+
+    .table-1 a {
+
+        background: none;
+
+    }
+
+    .table-1 a:visited, a:link{
+
+        color: rgb(255, 255, 255);
+
+    }
+
+
+    .table-2 {
+        
+        width: 90%;
+    }
+
+
+    .table-2 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        padding: 2.5em;
+        position: relative;
+        
+        
+    }
+
+    .table-2 th {
+
+        font-size: 3.5em;
+        font-family: "DotGothic16";
+        margin-bottom: .25em;
+
+    }
+
+    .table-2 .NProyecto {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Gemunu Libre";
+        font-size: 2.5em;
+        margin-bottom: 1em;
+
+    }
+
+    .table-2 td ,th{
+
+        background: none;
+
+    }
+
+    .table-2 p {
+
+        background: none;
+        font-size: 2em;
+        font-family: "Kanit";
+        
+    }
+
+    .table-2 a {
+
+        background: none;
+
+    }
+
+    .table-2 a:visited, a:link{
+
+        color: rgb(251, 251, 251);
+
+    }
+
+    .table-3 {
+        
+        width: 90%;
+    }
+
+    .table-3 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        padding: 2.5em;
+        position: relative;
+        
+        
+    }
+
+    .table-3 th {
+
+        font-size: 3.5em;
+        font-family: "DotGothic16";
+        margin-bottom: .25em;
+
+    }
+
+    .table-3 .NProyecto {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Gemunu Libre";
+        font-size: 2.5em;
+        margin-bottom: 1em;
+
+    }
+
+    .table-3 td ,th{
+
+        background: none;
+
+    }
+
+    .table-3 p {
+
+        background: none;
+        font-size: 2em;
+        font-family: "Kanit";
+        
+    }
+
+    .table-3 a {
+
+        background: none;
+
+    }
+
+    .table-3 a:visited, a:link{
+
+        color: rgb(253, 253, 251);
+
+    }
+
+
+    /* Descarga de Archivos */
+
+    .Container-Descargas {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 3em;
+    
+    }
+
+    .Container-Descargas h3 {
+
+        text-align: center;
+        font-size: 2.5em;
+        font-family: "Libre Baskerville";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .Container-Idems {
+
+        display: inline-flex;
+        margin: 1.5em;
+
+    }
+
+    .Container-Idems > li {
+
+        list-style-type: none;
+        margin: auto 3em;
+        font-size: 1.5em;
+        font-weight: bolder;
+
+    }
+
+    .Download-Cloud{
+
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Download-Cloud a {
+
+        background: none;
+        font-size: 4em;
+        margin: auto 2em;
+        margin-bottom: .5em;
+
+    }
+
+    .Download-Cloud i:hover{
+
+        font-size: 1.5em;    
+
+    }
+
+
+    hr{
+
+        outline: .1em solid rgb(255, 253, 253);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        margin: auto;
+        margin-bottom: 1.5em;
+
+    }
+
+
+
+    .Container-contactos {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .Container-contactos > a {
+
+        font-size: 4em;
+        margin: auto;
+
+    }
+
+    .Container-contactos i:hover {
+
+        font-size: 1.5em;
+    }
+
+    .Container-contactos > .Link:link, .Link:visited {
+
+        color: rgb(0, 0, 0);
+    }
+
+
+    .Footer-container {
+
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 1.35em;
+        font-family: "Orbitron";
+        padding: 1em;
+        animation-name: flash;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes flash {
+        
+        From {color: red;}
+        to { color: rgb(221, 255, 0);}
+
+    }
+}
+
+
+@media only screen and (max-width:1100px){
+    
+    /* CSS Mobile */
+
+    body{
+                
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, rgb(0, 191, 255),rgba(13, 0, 252, 0.91),rgb(183, 0, 255),rgb(0, 98, 255));
+
+    }
+
+    .Container-Icon p  {
+        
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+    } 
+
+    .Container-Icon i{
+        display: none;
+    }
+
+    .nav_ul{
+
+        display: none;
+
+        /* display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding:1.5em;
+        margin: 2em;
+        margin-bottom: 4em;
+        border-radius: 1em;
+        outline: .1em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(24, 28, 253),rgb(45, 104, 254),rgb(71, 185, 251)); */
+    
+    }
+
+   /*  .nav_ul li,a{
+       
+        list-style-type: none;
+        text-decoration: none;
+        font-weight: bolder;
+        font-family: "Inconsolata";  
+        font-size: 1.15em;
+        
+    }
+
+    .nav_ul a:hover{
+
+        animation-name: point;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes point {
+
+        From {}
+        to {color:  rgb(255, 255, 255);}
+        
+    }
+
+    .nav_ul li:first-child{
+
+        font-size: 2.2em;        
+        
+    } */
+
+    /* Contenedor Aboutme */
+
+    .Container-profile{
+
+        max-width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        outline: .1em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(155, 68, 237),rgba(71, 76, 220, 0.804),rgb(39, 145, 206));
+        border-radius: 1em;
+        margin: 1.5em;
+        
+    }
+
+    /* Imagen */
+
+    .Container-profile > img {
+
+        margin: auto;
+        margin-top: 2em;
+        border-radius: 2em;
+        outline: .15em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        
+    }
+
+    /* Contenedor de la Informacion y links */
+
+    .Container-info {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 1em;
+
+    }
+
+
+    .Container-a {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 75%;
+        margin-top: 1em;  
+               
+
+    }
+
+    .Container-a  a {
+        
+        width: 75%;
+        padding: .5em;
+        margin: .5em;
+        text-align: center;
+        border-radius: .5em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(2, 255, 200),rgba(1, 141, 255, 0.804),rgb(2, 31, 255));
+        font-size: 2em;
+        font-weight: bolder;
+        font-family: "Orbitron";
+        font-variant-caps: petite-caps;
+        text-decoration: none;       
+
+    }
+
+    .Container-a a:link,a:visited {
+
+        color: rgb(0, 0, 0);
+
+    }
+
+    /* .Container-a a:hover{
+        
+        animation-name: flasheo;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes flasheo {
+
+        From {}
+        to {padding: .8em;}
+        
+    } */
+
+
+    .Container-info h4 {
+
+        font-size: 2.2em;
+        text-align: center;
+        font-weight: bolder;
+        font-family: "Bebas Neue";
+        margin-top: 1em;
+        
+
+    }
+
+    .Container-info p{
+
+        margin-top: -2em;
+        padding: 1em;
+        text-align: justify;
+        font-size: 1.2em;
+        font-weight: bolder;
+        font-family: "Dosis";
+
+    }
+
+    .Container-info p::first-letter{
+
+        font-size: 2em;
+        font-weight: bolder;
+
+    }
+
+    /* Conocimiento Informaticos */
+
+    .Container-Conocimientos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+        margin: .5em;
+    
+    }
+
+    .Container-Conocimientos h3 {
+
+        font-size: 1.9em;
+        font-family: "Bebas Neue";
+        text-decoration: underline double;
+        margin: auto;
+        
+    }
+
+    .Container-Conocimientos .LG , .BD, .TN {
+
+        list-style-type: none;
+        font-size: 1.5em;
+        font-family: "Bebas Neue";
+        text-decoration: underline wavy;
+        margin: .5;
+    
+    }
+
+    .Items-LG {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: .5em;
+        margin: 1em;
+        margin-left: -1em; 
+        list-style-type: none;
+       
+    }
+
+    .Items-LG li {
+
+        font-size: 1.35em;
+        margin: auto .5em;
+        font-family: "Inconsolata";   
+
+    }
+
+    .Items-BD {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: .5em;
+        margin: 1em; 
+        margin-left: -1em;
+        list-style-type: none;
+       
+    }
+
+    .Items-BD li {
+
+        font-size: 1.35em;
+        margin: auto .6em;
+        font-family: "Inconsolata";   
+
+    }
+
+    .Items-TN {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: .5em;
+        margin: 1em; 
+        margin-left: -2em;
+        list-style-type: none;
+
+    }
+
+    .Items-TN li {
+
+        font-size: 1.35em;
+        margin: .5em;
+        font-family: "Inconsolata"; 
+        width: 110%;
+        
+    }
+
+
+    /* Formacion academica */
+
+
+    .FA-Container{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        list-style-type: none;
+        text-align: center;
+        
+    }
+
+    .FA-Container h3{
+
+        text-align: center;
+        font-size: 1.9em;
+        font-family: "Bebas Neue";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .Container-Items {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1em;        
+
+    }
+
+    .Container-Items li{ 
+
+        list-style-type: none;
+        font-size: 1.35em;
+        margin: .3em;
+        margin-left: -2em;
+        font-family: "Inconsolata";   
+        
+    }
+
+    .FECHAS {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .FECHAS li {
+
+        margin: auto 1.5em;
+
+    }
+
+    /* Experiencia Laboral */
+
+
+    .EL-Container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .EL-Container h3{
+
+        text-align: center;
+        font-size: 1.9em;
+        font-family: "Bebas Neue";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .EL-Items {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        
+    }
+
+    .EL-Items li {
+
+
+        list-style-type: none;
+        font-size: 1.35em;
+        margin: 1em;
+        margin-left: -1em;
+        font-family: "Inconsolata"; 
+
+    }
+
+    /* Idioma */
+
+    .Container-Leng{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Leng h3{
+
+        text-align: center;
+        font-size: 1.9em;
+        font-family: "Bebas Neue";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .Container-Leng li {
+
+        list-style-type: none;
+        font-size: 1.35em;
+        margin: 1em;
+        margin-left: -1em;
+        font-family: "Inconsolata"; 
+
+    }
+
+
+    /* Disponibilidad */
+
+    .Container-Time{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Time h3{
+
+        text-align: center;
+        font-size: 1.9em;
+        font-family: "Bebas Neue";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .Container-Time li{
+
+        list-style-type: none;
+        font-size: 1.35em;
+        margin: 1em;
+        margin-left: -1em;
+        font-family: "Inconsolata"; 
+    }
+
+    /* Proyectos Personales */
+
+    .Container-Proyectos {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Proyectos h3 {
+
+        text-align: center;
+        font-size: 1.9em;
+        font-family: "Bebas Neue";
+        text-decoration: underline double;
+        margin: .05em;
+
+    }
+
+    .table-1 {
+        
+        width: 90%;
+    }
+
+    .table-1 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        padding: 1.5em;
+        position: relative;
+        
+        
+    }
+
+    .table-1 th {
+
+        font-size: 2.5em;
+        font-family: "DotGothic16";
+        font-weight: bolder;
+        margin-bottom: .25em;
+
+    }
+
+    .table-1 .NProyecto {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Gemunu Libre";
+        font-size: 1.5em;
+        margin-bottom: 1em;
+
+    }
+
+    .table-1 td ,th{
+
+        background: none;
+
+    }
+
+    .table-1 p {
+
+        background: none;
+        font-size: 1em;
+        font-family: "Kanit";
+        
+    }
+
+    .table-1 a {
+
+        background: none;
+
+    }
+
+    .table-1 a:visited, a:link{
+
+        color: rgb(255, 255, 255);
+
+    }
+
+
+    .table-2 {
+        
+        width: 90%;
+    }
+
+
+    .table-2 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        padding: 1.5em;
+        position: relative;
+        
+        
+    }
+
+    .table-2 th {
+
+        font-size: 2.5em;
+        font-family: "DotGothic16";
+        margin-bottom: .25em;
+
+    }
+
+    .table-2 .NProyecto {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Gemunu Libre";
+        font-size: 2em;
+        margin-bottom: 1em;
+
+    }
+
+    .table-2 td ,th{
+
+        background: none;
+
+    }
+
+    .table-2 p {
+
+        background: none;
+        font-size: 1em;
+        font-family: "Kanit";
+        
+    }
+
+    .table-2 a {
+
+        background: none;
+
+    }
+
+    .table-2 a:visited, a:link{
+
+        color: rgb(251, 251, 251);
+
+    }
+
+    .table-3 {
+        
+        width: 90%;
+    }
+
+    .table-3 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .1em solid rgb(255, 252, 252);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        padding: 1.5em;
+        position: relative;
+        
+        
+    }
+
+    .table-3 th {
+
+        font-size: 2.5em;
+        font-family: "DotGothic16";
+        margin-bottom: .25em;
+
+    }
+
+    .table-3 .NProyecto {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Gemunu Libre";
+        font-size: 2em;
+        margin-bottom: 1em;
+
+    }
+
+    .table-3 td ,th{
+
+        background: none;
+
+    }
+
+    .table-3 p {
+
+        background: none;
+        font-size: 1.2em;
+        
+    }
+
+    .table-3 a {
+
+        background: none;
+
+    }
+
+    .table-3 a:visited, a:link{
+
+        color: rgb(253, 253, 251);
+
+    }
+
+
+    /* Descarga de Archivos */
+
+    .Container-Descargas {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+
+    .Container-Descargas h3 {
+
+        margin: 1em;
+        text-align: center;
+        font-size: 1.9em;
+        text-decoration: underline double;
+        margin-top: 1.5em;
+
+    }
+
+    .Container-Idems {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1em;
+        margin: auto;
+
+    }
+
+    .Container-Idems > li {
+
+        margin: auto .5em;
+        list-style-type: none; 
+        font-size: 1.25em;
+        font-weight: bolder;
+
+    }
+
+    .Download-Cloud{
+
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Download-Cloud a {
+
+        background: none;
+        font-size: 3.5em;
+        margin: auto 1em;
+        margin-bottom: .5em;
+
+    }
+
+   /*  .Download-Cloud i:hover{
+
+        font-size: 1.2em;    
+
+    } */
+
+
+    hr{
+
+        outline: .1em solid rgb(255, 253, 253);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        margin: auto;
+        margin-bottom: 1.5em;
+
+    }
+
+    .Container-contactos {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .Container-contactos > a {
+
+        font-size: 3em;
+        margin: auto;
+
+    }
+
+    /* .Container-contactos i:hover {
+
+        font-size: 1em;
+    } */
+
+    .Container-contactos > .Link:link, .Link:visited {
+
+        color: rgb(0, 0, 0);
+    }
+
+
+    .Footer-container {
+
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(0, 0, 0);
+        font-size: 1.35em;
+        font-family: "Orbitron";
+        padding: 1em;
+        animation-name: flash;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes flash {
+        
+        From {color: red;}
+        to { color: rgb(221, 255, 0);}
+
+    }
+}
