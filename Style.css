@@ -1,0 +1,1254 @@
+@media only screen and (min-width:1099px){
+ 
+    /* CSS Escritorio */
+
+    body{
+                
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, rgb(0, 191, 255),rgba(13, 0, 252, 0.91),rgb(183, 0, 255),rgb(0, 98, 255));
+
+    }
+
+    .Container-Icon p , .Container-Icon i {
+        
+        display: none;
+    }
+
+    .nav_ul{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        padding: 1.5em;
+        margin: 1.5em;
+        margin-bottom: 3em;
+        border-radius: 1em;
+        outline: .2em outset rgb(255, 255, 255);
+        box-shadow: 0 0 1em .3em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(24, 28, 253),rgb(45, 104, 254),rgb(71, 185, 251));
+    
+    }
+
+    .nav_ul li:first-child {
+
+        cursor: default;
+        font-size: 2.2em;
+        font-weight: bolder;
+        font-family: "Graduate";
+        margin-left: -1em;
+        list-style-type: none;
+        text-decoration: none;
+
+    }
+
+    .nav_ul .nav_li,a {
+        
+        font-size: 1.2em;
+        font-family: "IM Fell DW Pica SC"; 
+        font-weight: bold;
+        font-variant-caps: petite-caps;
+        list-style-type: none;
+        text-decoration: none;
+          
+    }
+
+    .nav_li a:link, a:visited{
+
+        color: rgb(0, 0, 0);
+    }
+
+    .nav_ul a:hover{
+
+        animation-name: point;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes point {
+
+        From {}
+        to {color: rgb(255, 255, 255);}
+        
+    }
+
+    .nav_ul li:first-child{
+
+        font-size: 2.2em;        
+        
+    }
+
+    /* Contenedor Principal */
+
+    .Container-profile{
+
+        display: flex;
+        justify-content: space-evenly; 
+        outline: .2em outset rgb(255, 255, 255);
+        box-shadow: 0 0 1em .3em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(155, 68, 237),rgba(71, 76, 220, 0.804),rgb(39, 145, 206));
+        border-radius: 1em;
+        margin: 2em;
+    }
+
+    /* Contenedor Imagen & links */
+
+    .Container-info {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        
+    }
+
+    /* Imagen */
+
+    .Container-info img {
+
+        margin: 2em;
+        margin-bottom: -.5em;
+        border-radius: 2em;
+        outline: .2em outset rgb(255, 255, 255);
+        box-shadow: 0 0 1em .3em rgb(255, 255, 255);
+        
+    }
+
+    /* links */
+
+    .Container-info .A {
+
+        width: 9em;
+        padding: .5em;
+        text-align: center;
+        border-radius: .5em;
+        outline: .2em outset rgb(255, 255, 255);
+        box-shadow: 0 0 1em .3em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(2, 255, 200),rgba(1, 141, 255, 0.804),rgb(2, 31, 255));
+        font-size: 1.5em;
+        font-weight: bolder;
+        font-family: "Orbitron";
+        font-variant-caps: petite-caps;
+
+    }
+
+    .Container-info .A:link, .A:visited{
+
+        color: rgb(0, 0, 0);
+
+    }
+
+    .Container-info .A:hover{
+        
+        animation-name: flasheo;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes flasheo {
+
+        From {}
+        to {padding: .8em;}
+        
+    }
+
+    /* Contenedor titulo & texto */
+
+    .Container-Texto {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+
+    .Container-Texto h4 {
+
+        font-size: 3em;
+        font-weight: 599;
+        text-align: center;
+        font-family: "Train One";
+
+    }
+
+    .Container-Texto p{
+
+        margin-top: -3.5em;
+        text-align: justify;
+        font-size: 1.5em;
+        font-weight: bolder;
+        font-family: "Kelly Slab";
+        padding: 2em;
+
+    }
+
+    .Container-Texto p::first-letter{
+
+        font-size: 2.5em;
+        font-weight: bolder;
+
+    }
+
+    /* Conocimiento Informaticos */
+
+    .Container-Conocimientos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        text-align: center;
+        margin: 2em;
+        margin-top: 5em;
+
+    }
+
+    .Container-Conocimientos h3 {
+
+        text-align: center;
+        font-size: 2em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+    }
+
+
+    .Container-Conocimientos .LG ,.BD, .TN {
+
+        list-style-type: none;
+        font-size: 2em;
+        font-family: "Orbitron";
+        text-decoration: underline wavy;
+
+    }
+
+    .Container-Conocimientos .Items-LG {
+
+
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+            
+    }
+
+    .Items-LG li {
+        
+        margin: 1.5em 1em;
+        list-style-type: none;
+        font-size: 2em;
+        font-family: "Graduate";
+        
+    }
+
+    .Container-Conocimientos .Items-BD {
+        
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    .Items-BD  li {
+
+        margin: 1.5em 1em;
+        list-style-type: none;
+        font-size: 2em;
+        font-family: "Graduate";
+    }
+
+    .Container-Conocimientos .Items-TN {
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+
+    .Items-TN li {
+
+        margin: 1.5em 1em;
+        list-style-type: none;
+        font-size: 2em;
+        font-family: "Graduate";
+    }
+
+    /* Formacion academica */
+
+
+    .FA-Container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        list-style-type: none;
+        margin: 2em;
+        margin-top: -2em;
+        
+    }
+
+    .FA-Container h3{
+
+        text-align: center;
+        font-size: 2em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .Container-Items li{ 
+
+        list-style-type: none;
+        padding: .8em;
+        font-size: 1.5em;
+        font-family: "Graduate";
+        
+    }
+
+    .FECHAS {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 3em;
+
+    }
+
+    .FECHAS li {
+
+        margin: auto 1.5em;
+
+    }
+
+    /* Experiencia Laboral */
+
+
+    .EL-Container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -3em;
+
+    }
+
+    .EL-Container h3{
+
+        text-align: center;
+        font-size: 2em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .EL-Container li {
+
+        text-align: center;
+        list-style-type: none;
+        padding: .9em;
+        font-size: 1.5em;
+        font-family: "Graduate";
+
+    }
+
+    /* Idioma */
+
+    .Container-Leng{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Leng h3{
+
+        text-align: center;
+        font-size: 2em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .Container-Leng li {
+
+        text-align: center;
+        list-style-type: none;
+        padding: .9em;
+        font-size: 1.5em;
+        font-family: "Graduate";  
+
+    }
+
+
+    /* Disponibilidad */
+
+    .Container-Time{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Time h3{
+
+        text-align: center;
+        font-size: 2em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .Container-Time li{
+
+        text-align: center;
+        list-style-type: none;
+        padding: .9em;
+        font-size: 1.5em;
+        font-family: "Graduate"; 
+    }
+
+    /* Proyectos Personales */
+
+    .Container-Proyectos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Proyectos h3 {
+
+        text-align: center;
+        font-size: 2em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .table-1, .table-2, .table-3{
+        
+        width: 95%;
+    }
+
+    .table-1 tr, .table-2 tr, .table-3 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .2em outset rgb(255, 255, 255);
+        box-shadow: 0 0 1em .3em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 2.5em;
+        position: relative;
+        
+    }
+
+    .table-1 th , .table-2 th, .table-3 th {
+
+        font-size: 4em;
+        font-family: "Fredericka the Great";
+        font-weight: 500;
+        margin-bottom: .4em;
+
+    }
+
+    .table-1 .PProyecto,  .table-2 .JProyecto, .table-3 .WProyecto  {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Rubik Distressed";
+        font-size: 2.5em;
+        margin-bottom: .5em;
+
+    }
+
+    .table-1 td > p, .table-2 td > p, .table-3 td > p {
+
+        font-size: 1.5em;
+        font-family: "Spectral SC";
+        
+    }
+
+    .table-1 a:visited, a:link, .table-2 a:visited, a:link, .table-3 a:visited, a:link{
+
+        color: rgb(255, 208, 55);
+
+    }
+
+
+    /* Descarga de Archivos */
+
+    .Container-Descargas {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+
+    .Container-Descargas h3 {
+
+        text-align: center;
+        font-size: 2em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: -1em;
+
+    }
+
+    .Container-Idems {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1em;
+
+    }
+
+    .Container-Idems li {
+
+        list-style-type: none;
+        margin: auto 2em;
+        padding: 1em;
+        font-size: 2em;
+        font-family: "Nerko One";
+        font-weight: lighter;
+
+    }
+
+    .Download-Cloud{
+
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -2em;
+        margin-bottom: 2em;
+
+    }
+
+    .Download-Cloud .Nube {
+
+        color: rgb(255, 255, 255);
+        font-size: 4em;
+        margin: auto 3em;
+        
+
+    }
+
+    .Download-Cloud i:hover{
+
+        font-size: 1.4em;    
+
+    }
+
+
+    hr{
+
+        outline: .1em solid rgb(255, 253, 253);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        margin: auto;
+        margin-bottom: 1.5em;
+
+    }
+
+
+
+    .Container-contactos {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .Container-contactos > a {
+
+        font-size: 4em;
+        margin: auto;
+
+    }
+
+    .Container-contactos i:hover {
+
+        font-size: 1.5em;
+    }
+
+    .Container-contactos > .Link:link, .Link:visited {
+
+        color: rgb(0, 0, 0);
+    }
+
+
+    .Footer-container {
+
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        font-size: 1.35em;
+        font-family: "Orbitron";
+        padding: 1em;
+        animation-name: flash;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes flash {
+        
+        From {color: red;}
+        to { color: rgb(221, 255, 0);}
+
+    }
+}
+
+
+@media only screen and (max-width:1100px){
+    
+    /* CSS Mobile */
+
+    body{
+                
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, rgb(0, 191, 255),rgba(13, 0, 252, 0.91),rgb(183, 0, 255),rgb(0, 98, 255));
+
+    }
+
+    .Container-Icon p  {
+        
+        display: block;
+        font-size: 1.5em;
+        text-align: center;
+    } 
+
+    .Container-Icon i{
+        display: none;
+    }
+
+    .nav_ul{
+
+        display: none;
+
+        /* display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        padding:1.5em;
+        margin: 2em;
+        margin-bottom: 4em;
+        border-radius: 1em;
+        outline: .1em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(24, 28, 253),rgb(45, 104, 254),rgb(71, 185, 251)); */
+    
+    }
+
+   /*  .nav_ul li,a{
+       
+        list-style-type: none;
+        text-decoration: none;
+        font-weight: bolder;
+        font-family: "Inconsolata";  
+        font-size: 1.15em;
+        
+    }
+
+    .nav_ul a:hover{
+
+        animation-name: point;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes point {
+
+        From {}
+        to {color:  rgb(255, 255, 255);}
+        
+    }
+
+    .nav_ul li:first-child{
+
+        font-size: 2.2em;        
+        
+    } */
+
+    /* Contenedor Aboutme */
+
+    .Container-profile{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        outline: .1em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        background-image: linear-gradient(to top, rgb(155, 68, 237),rgba(71, 76, 220, 0.804),rgb(39, 145, 206));
+        border-radius: 1em;
+        margin: 1em;
+        
+    }
+
+    .Container-info {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1em;;
+
+    }
+
+    /* Imagen */
+
+    .Container-info img {
+
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        border-radius: 2em;
+        outline: .15em solid rgb(255, 255, 255);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        
+    }
+
+    /* Contenedor de la Informacion y links */
+
+    .Container-info .A {
+        
+        width: 9em;
+        padding: .5em;
+        text-align: center;
+        border-radius: .5em;
+        outline: .2em outset rgb(255, 255, 255);
+        box-shadow: 0 0 1em .3em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(2, 255, 200),rgba(1, 141, 255, 0.804),rgb(2, 31, 255));
+        font-size: 1.5em;
+        font-weight: bolder;
+        font-family: "Orbitron";
+        font-variant-caps: petite-caps;
+        margin-bottom: 1.5em;
+        text-decoration: none;
+
+    }
+
+    .Container-info .A:link,.A:visited {
+
+        color: rgb(0, 0, 0);
+
+    }
+
+    /* .Container-a a:hover{
+        
+        animation-name: flasheo;
+        animation-duration: 1.5s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+
+    }
+
+    @keyframes flasheo {
+
+        From {}
+        to {padding: .8em;}
+        
+    } */
+
+
+    .Container-Texto {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+
+    .Container-Texto h4 {
+
+        font-size: 2em;
+        text-align: center;
+        font-family: "Train One";
+        margin-top: -.4em;
+        margin: .2em;
+
+    }
+
+    .Container-Texto p{
+
+        margin: .5em;
+        padding: .5em;
+        text-align: justify;
+        font-size: 1.2em;
+        font-weight: 600;
+        font-family: "Kelly Slab";
+
+    }
+
+    .Container-Texto p::first-letter{
+
+        font-size: 2.5em;
+        font-weight: bolder;
+
+    }
+
+    /* Conocimiento Informaticos */
+
+    .Container-Conocimientos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items:center;
+        text-align: center;
+        margin: 2em;
+        margin-top: 2em;
+
+    }
+
+    .Container-Conocimientos h3 {
+
+        text-align: center;
+        font-size: 1.6em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+    }
+
+
+    .Container-Conocimientos .LG ,.BD, .TN {
+
+        list-style-type: none;
+        font-size: 1.3em;
+        font-family: "Orbitron";
+        text-decoration: underline wavy;
+        margin: 1.5em;
+        
+    }
+
+    .Container-Conocimientos .Items-LG {
+
+
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: -5em;
+        
+    }
+
+    .Items-LG li {
+        
+        
+        list-style-type: none;
+        font-size: 1.3em;
+        font-family: "Graduate";
+        
+    }
+
+    .Container-Conocimientos .Items-BD {
+        
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: -3em;
+        
+    }
+
+    .Items-BD  li {
+
+        list-style-type: none;
+        font-size: 1.3em;
+        font-family: "Graduate";
+    }
+
+    .Container-Conocimientos .Items-TN {
+        
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-left: -2.5em;
+        
+    }
+
+    .Items-TN li {
+
+        list-style-type: none;
+        font-size: 1.3em;
+        padding: 1em;
+        font-family: "Graduate";
+        
+    }
+
+
+    /* Formacion academica */
+
+
+    .FA-Container{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        list-style-type: none;
+        margin: 2em;
+        margin-top: -2em;
+        
+    }
+
+    .FA-Container h3{
+
+        text-align: center;
+        font-size: 1.6em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .Container-Items li{ 
+
+        list-style-type: none;
+        padding: .7em;
+        font-size: 1.3em;
+        font-family: "Graduate";
+        
+    }
+
+    .FECHAS {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: .5em;
+
+    }
+
+    .FECHAS li {
+
+        margin: auto 1.5em;
+
+    }
+
+    /* Experiencia Laboral */
+
+
+    .EL-Container{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -3em;
+
+    }
+
+    .EL-Container h3{
+
+        text-align: center;
+        font-size: 1.6em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1em;
+
+    }
+
+    .EL-Container li {
+
+        text-align: center;
+        list-style-type: none;
+        padding: .5em;
+        font-size: 1.3em;
+        font-family: "Graduate";
+
+    }
+
+
+    /* Idioma */
+
+    .Container-Leng{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Leng h3{
+
+        text-align: center;
+        font-size: 1.6em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .Container-Leng li {
+
+        text-align: center;
+        list-style-type: none;
+        font-size: 1.3em;
+        font-family: "Graduate";  
+
+    }
+
+
+    /* Disponibilidad */
+
+    .Container-Time{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Time h3{
+
+        text-align: center;
+        font-size: 1.6em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .Container-Time li{
+
+        text-align: center;
+        list-style-type: none;
+        font-size: 1.3em;
+        font-family: "Graduate"; 
+    }
+
+
+    /* Proyectos Personales */
+
+
+    .Container-Proyectos {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .Container-Proyectos h3 {
+
+        text-align: center;
+        font-size: 1.6em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: 1.3em;
+
+    }
+
+    .table-1, .table-2, .table-3{
+        
+        width: 90%;
+    }
+
+    .table-1 tr, .table-2 tr, .table-3 tr{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 2em;
+        outline: .2em outset rgb(255, 255, 255);
+        box-shadow: 0 0 1em .3em rgb(255, 255, 255);
+        background-image: linear-gradient(to right, rgb(249, 32, 108),rgba(169, 43, 248, 0.804),rgba(2, 2, 255, 0.805));
+        margin-top: 2em;
+        margin-bottom: 2em;
+        padding: 1.5em;
+        position: relative;
+        
+    }
+
+    .table-1 th , .table-2 th, .table-3 th {
+
+        font-size: 2.5em;
+        font-family: "Fredericka the Great";
+        font-weight: 500;
+        margin-bottom: .4em;
+
+    }
+
+    .table-1 .PProyecto,  .table-2 .JProyecto, .table-3 .WProyecto  {
+
+        text-decoration: underline double;
+        background: none;
+        font-family: "Rubik Distressed";
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: .5em;
+
+    }
+
+    .table-1 td > p, .table-2 td > p, .table-3 td > p {
+
+        font-size: 1.2em;
+        font-family: "Spectral SC";
+        
+    }
+
+    .table-1 a:visited, a:link, .table-2 a:visited, a:link, .table-3 a:visited, a:link{
+
+        color: rgb(255, 208, 55);
+
+    }
+
+    /* Descarga de Archivos */
+
+    .Container-Descargas {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    
+    }
+
+    .Container-Descargas h3 {
+
+        text-align: center;
+        font-size: 1.6em;
+        font-family: "Stalinist One";
+        text-decoration: underline double;
+        margin-bottom: .5em;
+
+    }
+
+    .Container-Idems {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: -2.2em;
+        width: max-content;
+
+    }
+
+    .Container-Idems li {
+
+        list-style-type: none;
+        margin: 1em .5em;
+        font-size: 1.3em;
+        font-family: "Nerko One";
+        font-weight: lighter;
+
+    }
+
+    .Download-Cloud{
+
+        display:flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -1em;
+        margin-bottom: 2em;
+
+    }
+
+    .Download-Cloud .Nube {
+
+        color: rgb(255, 255, 255);
+        font-size: 3em;
+        margin: auto 1.2em;
+        
+
+    }
+
+   /*  .Download-Cloud i:hover{
+
+        font-size: 1.4em;    
+
+    } */
+
+
+    hr{
+
+        outline: .1em solid rgb(255, 253, 253);
+        box-shadow: 0 0 .5em .25em rgb(255, 255, 255);
+        margin: auto;
+        margin-bottom: 1.5em;
+
+    }
+
+    .Container-contactos {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    .Container-contactos > a {
+
+        font-size: 3em;
+        margin: auto;
+
+    }
+
+    /* .Container-contactos i:hover {
+
+        font-size: 1em;
+    } */
+
+    .Container-contactos > .Link:link, .Link:visited {
+
+        color: rgb(0, 0, 0);
+    }
+
+
+    .Footer-container {
+
+        display:flex;
+        justify-content: space-evenly;
+        background-color: rgb(0, 0, 0);
+        font-size: 1.35em;
+        font-family: "Orbitron";
+        padding: 1em;
+        animation-name: flash;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes flash {
+        
+        From {color: red;}
+        to { color: rgb(221, 255, 0);}
+
+    }
+}
