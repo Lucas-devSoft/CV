@@ -1,0 +1,729 @@
+@media only screen and (min-width:1099px){
+ 
+    /* CSS Escritorio */
+
+    *{
+                
+        margin: 0;
+        padding: 0;   
+
+    }
+    
+    body {
+
+        text-align: center;
+        background-image: linear-gradient(150deg, #00cdf2 0, #00ccfe 3.33%, #00caff 6.67%, #00c8ff 10%, #00c5ff 13.33%, #00c2ff 16.67%, #00beff 20%, #38b9ff 23.33%, #69b4ff 26.67%, #8aafff 30%, #a6a9ff 33.33%, #bda2ff 36.67%, #d19cff 40%, #e396fe 43.33%, #f290f1 46.67%, #ff8be4 50%, #ff87d6 53.33%, #ff83c7 56.67%, #ff82b8 60%, #ff81a9 63.33%, #ff829a 66.67%, #ff858b 70%, #ff887d 73.33%, #ff8d70 76.67%, #ff9264 80%, #ff9859 83.33%, #fa9e4f 86.67%, #f0a447 90%, #e4a941 93.33%, #d7af3d 96.67%, #cab43c 100%);
+
+    }
+
+    .Container-all {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 85%;
+        margin: auto;
+
+    }
+
+    .Container-all > img {
+
+        margin-top: 2em;
+        border-radius: 1em;
+        outline: .1em outset rgb(255, 255, 255);
+        box-shadow: 0 0 .8em .35em rgb(0, 0, 0);
+
+    }
+
+    .Container-Redes-Sociales {
+
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+       margin: auto;
+       margin-top: 3em;
+       width: 20%;
+       
+    }
+
+    .Container-Redes-Sociales > .Linkedin {
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 122, 252);
+        width: 1.22em;
+        font-size: 2.2em;
+        padding: .20em;
+        border-radius: .2em;
+    
+    }
+
+    .Container-Redes-Sociales > .Whatsapp{
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 148, 0);
+        width: 1.2em;
+        font-size: 2.2em;
+        padding: .20em;
+        border-radius: .2em;
+        
+    }
+
+    .Container-Redes-Sociales > .Correo{
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(99, 59, 255);
+        width: 1.2em;
+        font-size: 2.2em;
+        padding: .20em;
+        border-radius: .2em;
+
+    }
+
+    .Container-Redes-Sociales > .Github{
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(210, 47, 251);
+        width: 1.2em;
+        font-size: 2.2em;
+        padding: .20em;
+        border-radius: .2em;
+
+    }
+
+    .Linkedin:hover, .Whatsapp:hover, .Github:hover, .Correo:hover {
+
+        
+        animation: 2s alternate infinite;
+        animation-name: flash;
+        transition: 2s background;
+        transition-timing-function: ease-in-out;
+    }
+
+    @keyframes flash {
+        from {}
+        to{background-color: rgb(255, 255, 255);}
+    }
+
+    .Container-Texto {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3em;
+        padding: .5em;
+
+    }
+
+    .Container-Texto h4 {
+
+        font-size: 2.5em;
+        font-family: "Graduate";
+        margin: auto;
+        margin-bottom: 2em;
+
+    }
+
+    .Container-Texto p{
+
+        margin-top: -3.5em;
+        text-align: justify;
+        font-size: 1em;
+        line-height: 2em;
+        font-family: "Orbitron";
+        padding: 2em;
+
+    }
+
+    .Container-Texto p::first-letter{
+
+        font-size: 2.5em;
+        font-weight: bolder;
+
+    }
+
+
+    h2 {
+
+
+        font-size: 3.5em;
+        font-family: "Graduate";
+
+    }
+
+    /* Skills */
+
+
+    .Container-Skills{
+        
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 75%;
+
+    }
+
+    .Container-Skills ul {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 70%;
+        padding: 1em;
+        list-style-type: none;
+        font-size: 1.5em;
+        font-family: "Orbitron";
+
+    }
+
+    .Container-Skills i{
+        
+        font-size: 2em;
+        margin-bottom: .6em;
+
+    }
+
+    /* Table */
+
+    .Container-Proyectos{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .Container-Proyectos > h2 {
+
+        font-size: 3.5em;
+        font-family: "Graduate";
+        margin-bottom: 1em;
+
+    }
+
+    .table-1 tr , .table-2 tr, .table-3 tr {
+
+        outline:.2em solid rgb(0, 0, 0);
+        border-radius: .5em; 
+        box-shadow: 0 0 .5em .5em rgb(0, 0, 0);  
+
+    }
+
+    .table-1, th,td, .table-2, th, td, .table-3, th, td {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        padding: .8em;
+        
+    }
+
+    .table-1 th, .table-2 th, .table-3 th{
+
+        font-size: 2em;
+        font-family: "Rubik distressed";
+        font-weight: 100;
+        
+
+    }
+
+    .table-1 .PProyecto, .table-2 .JProyecto, .table-3 .WProyecto {
+
+        font-size: 2em;
+        font-family: "Kelly slab";
+        margin-bottom: -.8em;
+        text-decoration: underline double;
+
+    }
+
+    .table-1 p > img, .table-2 p > img {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        margin-bottom: 1em;
+
+    }
+
+    .table-1 p, .table-2 p, .table-3 p {
+
+        margin: auto;
+        font-size: 1.5em;
+        padding: 1em;
+        text-align: justify;
+        font-family: "Kelly slab";
+
+    }
+
+    .table-1 .table-a, .table-2 .table-a, .table-3 .table-a {
+
+        text-align: center;
+        font-size: 1.8em;
+        font-family: "Kelly slab";
+        margin: auto;
+        margin-bottom: .5em;
+        text-decoration: none;
+
+    }
+
+
+    .table-1 .table-a:link, .table-a:visited , .table-2 .table-a:link, .table-a:visited, .table-3 .table-a:link, .table-a:visited {
+
+        color: rgb(63, 53, 255);
+
+    } 
+
+    /* Descargas */
+
+    .Container-Descargas{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: .5em;
+
+    }
+
+    .Container-Idems {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+        width: 100%;
+        margin: auto;
+        margin-top: 1.5em;
+
+    }
+
+    .Container-Descargas h3 {
+
+        font-size: 3em;
+        font-family: "Graduate";
+        margin-top: .7em;
+    }
+
+    .Container-Idems > li{
+
+        list-style-type: none;
+        font-size: 1.5em;
+        font-family: "Orbitron";
+        
+    }
+
+    .Download-Cloud {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        margin-top: 1em;
+        width: 60%;
+
+    }
+
+    .Download-Cloud > .icon {
+
+
+        font-size: 3em;
+        margin-bottom: .5em;
+        color: rgb(255, 255, 255);
+
+    }
+ 
+    
+    footer{
+
+        font-size: 1.5em;
+        font-family: "IM Fell DW Pica SC";
+        padding: 1em;
+        
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:1100px){
+    
+    /* CSS Mobile */
+
+    
+    *{
+                
+        margin: 0;
+        padding: 0;   
+    }
+    
+    body {
+
+        text-align: center;
+        background-image: linear-gradient(150deg, #00cdf2 0, #00ccfe 3.33%, #00caff 6.67%, #00c8ff 10%, #00c5ff 13.33%, #00c2ff 16.67%, #00beff 20%, #38b9ff 23.33%, #69b4ff 26.67%, #8aafff 30%, #a6a9ff 33.33%, #bda2ff 36.67%, #d19cff 40%, #e396fe 43.33%, #f290f1 46.67%, #ff8be4 50%, #ff87d6 53.33%, #ff83c7 56.67%, #ff82b8 60%, #ff81a9 63.33%, #ff829a 66.67%, #ff858b 70%, #ff887d 73.33%, #ff8d70 76.67%, #ff9264 80%, #ff9859 83.33%, #fa9e4f 86.67%, #f0a447 90%, #e4a941 93.33%, #d7af3d 96.67%, #cab43c 100%);
+        
+
+    }
+
+    .Container-all {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+
+    }
+
+    .Container-all > img {
+
+        margin-top: 2em;
+        border-radius: 1em;
+        outline: .1em outset rgb(255, 255, 255);
+        box-shadow: 0 0 .8em .35em rgb(0, 0, 0);
+
+    }
+
+    .Container-Redes-Sociales {
+
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+       margin: auto;
+       margin-top: 2em;
+       width: 90%;
+       
+    }
+
+    .Container-Redes-Sociales > .Linkedin {
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 122, 252);
+        width: 60%;
+        font-size: 2em;
+        padding: .20em;
+        
+    
+    }
+
+    .Container-Redes-Sociales > .Whatsapp{
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 148, 0);
+        width: 60%;
+        font-size: 2em;
+        padding: .20em;
+        
+        
+    }
+
+    .Container-Redes-Sociales > .Correo{
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(99, 59, 255);
+        width: 60%;
+        font-size: 2em;
+        padding: .20em;
+        
+
+    }
+
+    .Container-Redes-Sociales > .Github{
+        
+        color: rgb(0, 0, 0);
+        background-color: rgb(210, 47, 251);
+        width: 60%;
+        font-size: 2em;
+        padding: .20em;
+
+    }
+
+    .Linkedin:hover, .Whatsapp:hover, .Github:hover, .Correo:hover {
+
+        
+        animation: 2s alternate infinite;
+        animation-name: flash;
+        transition: 2s background;
+        transition-timing-function: ease-in-out;
+    }
+
+    @keyframes flash {
+        from {}
+        to{background-color: rgb(255, 255, 255);}
+    }
+
+    .Container-Texto {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2em;
+        margin: auto;
+        padding: 1em;
+
+    }
+
+    .Container-Texto h4 {
+
+        font-size: 1.35em;
+        font-family: "Graduate";
+        margin: auto;
+        margin-top: 2em ; 
+        margin-bottom: 1.5em;
+
+    }
+
+    .Container-Texto p{
+
+       
+        text-align: justify;
+        font-size: 1em;
+        line-height: 1.5em;
+        padding: .3em;
+        font-family: "Orbitron";
+
+    }
+
+    .Container-Texto p::first-letter{
+
+        font-size: 2.5em;
+        font-weight: bolder;
+
+    }
+
+
+    h2 {
+
+
+        font-size: 2.4em;
+        font-family: "Graduate";
+
+    }
+
+    /* Skills */
+
+
+    .Container-Skills{
+        
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 100%;
+        
+    }
+
+    .Container-Skills ul {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+        padding: .5em;
+        list-style-type: none;
+        font-size: 1em;
+        font-family: "Orbitron";
+
+    }
+
+    .Container-Skills i{
+        
+        font-size: 1.5em;
+        margin-bottom: .6em;
+
+    }
+
+    /* Table */
+
+    .Container-Proyectos{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .Container-Proyectos > h2 {
+
+        font-size: 2.4em;
+        font-family: "Graduate";
+        margin-bottom: 1em;
+
+    }
+
+    .table-1 tr , .table-2 tr, .table-3 tr {
+
+        outline:.1em solid rgb(0, 0, 0);
+        border-radius: .5em;  
+        width: 100%;  
+        margin: auto;
+        box-shadow: 0 0 .5em .5em rgb(0, 0, 0); 
+
+    }
+
+    .table-1, th,td, .table-2, th, td, .table-3, th, td {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        padding: 1em;
+        
+    }
+
+    .table-1 th, .table-2 th, .table-3 th{
+
+        font-size: 2.5em;
+        font-family: "Rubik distressed";
+        font-weight: 100;
+        
+
+    }
+
+    .table-1 .PProyecto, .table-2 .JProyecto, .table-3 .WProyecto {
+
+        font-size: 2em;
+        font-family: "Kelly slab";
+        margin-bottom: -.8em;
+        text-decoration: underline double;
+
+    }
+
+    .table-1 p > img, .table-2 p > img {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1em;
+
+    }
+
+    .table-1 p, .table-2 p, .table-3 p {
+
+        margin: auto;
+        font-size: 1.5em;
+        padding: .5em;
+        text-align: justify;
+        font-family: "Kelly slab";
+
+    }
+
+    .table-1 .table-a, .table-2 .table-a, .table-3 .table-a {
+
+        text-align: center;
+        font-size: 1.5em;
+        font-family: "Kelly slab";
+        margin: auto;
+        margin-bottom: .5em;
+        text-decoration: none;
+
+    }
+
+
+    .table-1 .table-a:link, .table-a:visited , .table-2 .table-a:link, .table-a:visited, .table-3 .table-a:link, .table-a:visited {
+
+        color: rgb(63, 53, 255);
+
+    } 
+
+    /* Descargas */
+
+    .Container-Descargas{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        padding: .5em;
+
+    }
+
+    .Container-Idems {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        margin-top: 1.5em;
+
+    }
+
+    .Container-Descargas h3 {
+
+        font-size: 2.5em;
+        font-family: "Graduate";
+        margin-top: .7em;
+    }
+
+    .Container-Idems > li{
+
+        list-style-type: none;
+        font-size: 1.2em;
+        font-family: "Orbitron";
+
+    }
+
+    .Download-Cloud {
+
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: auto;
+        margin-top: 1em;
+        width: 100%;
+
+    }
+
+    .Download-Cloud > .icon {
+
+
+        font-size: 3em;
+        margin-bottom: .5em;
+        color: rgb(255, 255, 255);
+
+    }
+ 
+    hr{
+
+        color: rgb(0, 0, 0);
+
+
+    }
+
+    footer{
+
+        font-size: 1.5em;
+        font-family: "IM Fell DW Pica SC";
+        padding: 1em;
+        
+
+    }
+
+
+}
