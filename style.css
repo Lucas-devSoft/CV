@@ -1,0 +1,919 @@
+@media only screen and (min-width:1099px){
+
+    /* CSS Escritorio */
+
+    *{
+
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    body {
+
+        text-align: center;
+        background-image: linear-gradient(150deg, #00cdf2 0, #00ccfe 3.33%, #00caff 6.67%, #00c8ff 10%, #00c5ff 13.33%, #00c2ff 16.67%, #00beff 20%, #38b9ff 23.33%, #69b4ff 26.67%, #8aafff 30%, #a6a9ff 33.33%, #bda2ff 36.67%, #d19cff 40%, #e396fe 43.33%, #f290f1 46.67%, #ff8be4 50%, #ff87d6 53.33%, #ff83c7 56.67%, #ff82b8 60%, #ff81a9 63.33%, #ff829a 66.67%, #ff858b 70%, #ff887d 73.33%, #ff8d70 76.67%, #ff9264 80%, #ff9859 83.33%, #fa9e4f 86.67%, #f0a447 90%, #e4a941 93.33%, #d7af3d 96.67%, #cab43c 100%);
+
+    }
+    
+    /* Barra Navegacion  */
+    
+    nav ul{
+        
+        position: fixed;
+        top: auto;
+        left: auto;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        text-align: center;
+        list-style-type: none;
+        margin: 10px;
+        padding: 20px;
+        font-size: 18px;
+        font-family: "Graduate";
+        color: rgb(255, 0, 0);
+        
+    }
+    
+    nav ul a {
+    
+        text-decoration: none;
+        color: rgb(255, 0, 0);
+    }
+    
+    nav ul > li:first-child{
+        
+        font-size: 32px;
+    
+    }
+    
+    /* Sobre mi */
+
+    .Container-all {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .Container-all > img {
+        
+        margin-top: 100px;
+        border-radius: 1em;
+        outline: .1em outset rgb(255, 255, 255);
+        box-shadow: 0 0 .8em .35em rgb(0, 0, 0);
+
+    }
+    
+    .Container-Texto {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3em;
+        padding: .5em;
+
+    }
+
+    .Container-Texto h1 {
+
+        font-size: 40px;
+        font-family: "Bruno Ace SC";
+        margin: auto;
+        margin-bottom: 40px;
+
+    }
+
+    .Container-Texto p{
+
+        
+        text-align: justify;
+        font-size: 22px;
+        line-height: 40px;
+        font-family: "Orbitron";
+        padding: 20px;
+
+    }
+
+    .Container-Texto p::first-letter{
+
+        font-size: 2.5em;
+        font-weight: bolder;
+
+    }
+
+    /* Titulares */
+
+    h2 {
+        
+        margin-top: 60px;
+        margin-bottom: 60px;
+        font-size: 60px;
+        font-family: "Bruno Ace SC";
+
+    }
+
+    /* Skills */
+    
+    .Container-Skills{
+
+        margin: auto;
+        width: 75%;
+        margin-top: -20px; 
+        
+    }
+
+    .Container-Skills ul {
+        
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: "Orbitron";
+
+    }
+
+    .Container-Skills img{
+
+        width: 64px;
+        margin-bottom: 20px;
+
+    }
+    
+    .Container-BD{
+    
+        margin: auto;
+        width: 75%;
+        margin-top: -30px;
+        
+    }
+    
+    .Container-BD ul {
+    
+        width: 70%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        list-style-type: none;
+
+    }
+
+    .Container-BD img{
+
+        width: 200px;
+        margin-bottom: .6em;
+
+    }
+    
+    .Container-Tecnico p{
+        
+        margin: 10px;
+        font-family: "Orbitron";
+        text-align: center;
+        font-size: 25px;
+    
+    }
+
+    /* Estudios */
+    
+    .Container-estudios-1 {
+        
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+    .Container-estudios-1 p {
+    
+        margin: 10px;
+        font-family: "Orbitron";
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    
+    .Container-estudios-2 {
+    
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+    .Container-estudios-2 p {
+    
+        margin: 10px;
+        font-family: "Orbitron";
+        text-align: center;
+        font-size: 25px;
+        
+    }
+    
+    .Container-Fechas {
+        
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+
+    /* Table */
+
+    .table-1 tr, .table-2 tr {
+
+        outline:.2em solid rgb(0, 0, 0);
+        border-radius: .5em;
+        box-shadow: 0 0 .5em .5em rgb(0, 0, 0);
+
+    }
+
+     .table-1, th,td, .table-2, th, td {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+        padding: 30px;
+
+    } 
+    
+    .Container-content {
+        
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+        
+    }
+    
+    .Container-img-A, .Container-img-B {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+        
+    }
+    
+    .Container-img-A img, .Container-img-B img{
+        
+        width: 350px;
+        height: 350px;
+        margin-bottom: 50px;
+        
+    }
+
+    .table-1 th, .table-2 th{
+
+        font-size: 50px;
+        font-family: "Rubik distressed";
+        text-align: center;
+        font-weight: 100;
+
+    }
+
+    .table-1 .PProyecto, .table-2 .WProyecto{
+
+        font-size: 40px;
+        font-family: "Kelly slab";
+        text-decoration: underline double;
+
+    }
+
+    .table-1 p > img {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+
+    .table-1 p, .table-2 p{
+
+        margin: auto;
+        font-size: 22px;
+        text-align: justify;
+        font-family: "Kelly slab";
+        line-height: 50px;
+
+    }
+
+    .table-1 .table-a, .table-2 .table-a{
+        
+        margin: auto;
+        text-decoration: none;
+        text-align: center;
+        font-size: 25px;
+        font-family: "Kelly slab";
+
+    }
+
+    .table-1 .table-a:link, .table-a:visited , .table-2 .table-a:link, .table-a:visited{
+
+        color: rgb(16, 4, 249);
+
+    }
+
+
+    /* Descargas */
+    
+    .Container-Idems {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .Container-Idems > li{
+
+        list-style-type: none;
+        font-size: 30px;
+        font-weight: 700;
+        font-family: "Orbitron";
+
+    }
+
+    .Download-Cloud {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        margin: auto;
+        width: 95%;
+
+    }
+
+    .Download-Cloud > .icon {
+
+        font-size: 60px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    
+    /* Redes Sociales */
+    
+    
+    .Container-Redes-Sociales {
+
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+       margin: auto;
+       margin-bottom: 50px;
+       width: 35%;
+       
+
+    }
+
+    .Container-Redes-Sociales > .Linkedin {
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 122, 252);
+        font-size: 40px;
+        padding: 20px;
+        border-radius: 15px;
+
+    }
+
+    .Container-Redes-Sociales > .Whatsapp{
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 148, 0);
+        font-size: 40px;
+        padding: 20px;
+        border-radius: 15px;
+
+    }
+
+    .Container-Redes-Sociales > .Correo{
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(99, 59, 255);
+        font-size: 40px;
+        padding: 20px;
+        border-radius: 15px;
+        
+    }
+
+    .Container-Redes-Sociales > .Github{
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(210, 47, 251);
+        font-size: 40px;
+        padding: 20px;
+        border-radius: 15px;
+
+    }
+
+    .Linkedin:hover, .Whatsapp:hover, .Github:hover, .Correo:hover {
+
+
+        animation: 2s alternate infinite;
+        animation-name: flash;
+        transition: 2s background;
+        transition-timing-function: ease-in-out;
+    }
+
+    @keyframes flash {
+        from {}
+        to{background-color: rgb(255, 255, 255);}
+    }
+    
+    /* Footer */
+    
+    
+    footer{
+
+        font-size: 30px;
+        font-family: "IM Fell DW Pica SC";
+        padding: 1em;
+
+
+    }
+
+
+}
+
+
+@media only screen and (max-width:1100px){
+
+    /* CSS Mobile */
+
+
+    *{
+        
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+
+        text-align: center;
+        background-image: linear-gradient(150deg, #00cdf2 0, #00ccfe 3.33%, #00caff 6.67%, #00c8ff 10%, #00c5ff 13.33%, #00c2ff 16.67%, #00beff 20%, #38b9ff 23.33%, #69b4ff 26.67%, #8aafff 30%, #a6a9ff 33.33%, #bda2ff 36.67%, #d19cff 40%, #e396fe 43.33%, #f290f1 46.67%, #ff8be4 50%, #ff87d6 53.33%, #ff83c7 56.67%, #ff82b8 60%, #ff81a9 63.33%, #ff829a 66.67%, #ff858b 70%, #ff887d 73.33%, #ff8d70 76.67%, #ff9264 80%, #ff9859 83.33%, #fa9e4f 86.67%, #f0a447 90%, #e4a941 93.33%, #d7af3d 96.67%, #cab43c 100%);
+
+
+    }
+    
+    nav ul {
+    
+        display:none
+        
+    }
+    
+
+    .Container-all {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        width: 95%;
+    }
+
+    .Container-all > img {
+        
+        margin-top: 30px;
+        border-radius: 1em;
+        outline: 3px outset rgb(255, 255, 255);
+        box-shadow: 0 0 10px 7px rgb(0, 0, 0);
+
+    }
+    
+    .Container-Texto {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: baseline;
+        text-align: center;
+        padding: 10px;
+
+    }
+
+    .Container-Texto h1 {
+
+        font-size: 30px;
+        font-family: "Bruno Ace SC";
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .Container-Texto p{
+
+        text-align: justify;
+        font-size: 18px;
+        line-height: 35px;
+        font-family: "Orbitron"; 
+
+    }
+
+    .Container-Texto p::first-letter{
+
+        font-size: 30px;
+        font-weight: bolder;
+
+    }
+
+    /* Titulares */
+
+    h2 {
+        
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 35px;
+        font-family: "Bruno Ace SC";
+
+    }
+
+    /* Skills */
+    
+    .Container-Skills{
+
+        margin: auto;
+        width: 100%;
+        
+    }
+
+    .Container-Skills ul {
+        
+        display: flex;
+        justify-content:space-between;
+        align-items: baseline;
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: bolder;
+        font-family: "Orbitron";
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+        margin-bottom: 20px;
+
+    }
+
+    .Container-Skills img{
+
+        width: 40px;
+        margin-bottom: 20px;
+
+    }
+    
+    .Container-BD{
+    
+        margin: auto;
+        width: 100%;
+        
+    }
+    
+    .Container-BD ul {
+    
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        list-style-type: none;
+
+    }
+
+    .Container-BD img{
+
+        width: 100px;
+        margin-bottom: .6em;
+
+    }
+    
+    .Container-Tecnico p{
+        
+        margin: 10px;
+        font-family: "Orbitron";
+        text-align: center;
+        font-size: 18px;
+    
+    }
+    
+    /* Estudios */
+    
+    .Container-estudios-1 {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    
+    .Container-estudios-1 p {
+        
+        font-size: 18px;
+        text-align: center;
+        font-family: "Orbitron";
+        margin: 10px;
+      
+    }
+    
+    .Container-estudios-2 {
+    
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+    .Container-estudios-2 p {
+    
+        font-size: 18px;
+        text-align: center;
+        font-family: "Orbitron";
+        margin: 10px;
+        
+    }
+    
+    .Container-Fechas {
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+
+    /* Table */
+
+    .table-1 tr, .table-2 tr {
+
+        outline:.2em solid rgb(0, 0, 0);
+        border-radius: .5em;
+        box-shadow: 0 0 .5em .5em rgb(0, 0, 0);
+
+    }
+
+    .table-1, th,td {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;  
+        margin-bottom: 40px;
+
+    } 
+    
+    .table-2, th, td{
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center; 
+        
+    }
+    
+    .Container-content {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: baseline; 
+        
+    }
+    
+    .Container-img-A, .Container-img-B {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        font-size: 25px;
+        
+    }
+    
+    .Container-img-A img, .Container-img-B img{
+        
+        width: 300px;
+        margin-bottom: 30px;
+        
+    }
+
+    .table-1 th, .table-2 th{
+
+        font-size: 40px;
+        font-family: "Rubik distressed";
+        text-align: center;
+        font-weight: 100;
+
+    }
+
+    .table-1 .PProyecto, .table-2 .WProyecto{
+
+        font-size: 30px;
+        font-family: "Kelly slab";
+        text-decoration: underline double;
+        margin-bottom: 30px;
+
+    }
+
+    .table-1 p > img {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+
+    }
+
+    .table-1 p, .table-2 p{
+
+        font-size: 16px;
+        text-align: justify;
+        font-family: "Kelly slab";
+        line-height: 30px;
+        margin: auto;
+        padding: 15px;
+
+    }
+
+    .table-1 .table-a, .table-2 .table-a{
+        
+        margin: auto;
+        text-decoration: none;
+        text-align: center;
+        font-size: 12px;
+        font-family: "Kelly slab";
+
+    }
+
+    .table-1 .table-a:link, .table-a:visited , .table-2 .table-a:link, .table-a:visited{
+
+        color: rgb(76, 68, 240);
+
+    }
+
+
+    /* Descargas */
+    
+    .Container-Idems {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .Container-Idems > li{
+
+        list-style-type: none;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: "Orbitron";
+
+    }
+
+    .Download-Cloud {
+
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .Download-Cloud > .icon {
+
+        font-size: 40px;
+        margin-top: 20px;
+        color: rgb(255, 255, 255);
+
+    }
+
+    /* Redes Sociales */
+    
+    .Container-Redes-Sociales {
+
+       display: flex;
+       justify-content: space-between;
+       align-content: center;
+       margin: auto;
+       margin-bottom: 50px;
+       width: 100%;
+       
+    }
+
+    .Container-Redes-Sociales > .Linkedin {
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 122, 252);
+        font-size: 30px;
+        margin: auto;
+        padding: 15px;
+        border-radius: 15px;
+
+    }
+
+    .Container-Redes-Sociales > .Whatsapp{
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(0, 148, 0);
+        font-size: 30px;
+        margin: auto;
+        padding: 15px;
+        border-radius: 15px;
+
+    }
+
+    .Container-Redes-Sociales > .Correo{
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(99, 59, 255);
+        font-size: 30px;
+        margin: auto;
+        padding: 15px;
+        border-radius: 15px;
+        
+    }
+
+    .Container-Redes-Sociales > .Github{
+
+        color: rgb(0, 0, 0);
+        background-color: rgb(210, 47, 251);
+        font-size: 30px;
+        margin: auto;
+        padding: 15px;
+        border-radius: 15px;
+
+    }
+
+    .Linkedin:hover, .Whatsapp:hover, .Github:hover, .Correo:hover {
+
+        animation: 2s alternate infinite;
+        animation-name: flash;
+        transition: 2s background;
+        transition-timing-function: ease-in-out;
+    }
+
+    @keyframes flash {
+        from {}
+        to{background-color: rgb(255, 255, 255);}
+    }
+    
+    /* Footer */
+    
+    
+    footer{
+
+        font-size: 20px;
+        font-family: "IM Fell DW Pica SC";
+        padding: 20px;
+
+
+    }
+
+}
